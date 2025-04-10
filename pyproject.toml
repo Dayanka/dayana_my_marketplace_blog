@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "my-marketplace-blog"
+version = "0.1.0"
+description = ""
+authors = ["Dayanka <dayaankaaa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.12"
+uvicorn = "^0.34.0"
+alembic = "^1.15.2"
+psycopg2-binary = "^2.9.10"
+pydantic-settings = "^2.8.1"
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = {extras = ["cryptography"], version = "^3.4.0"}
+python-multipart = "^0.0.20"
+celery = "^5.5.1"
+minio = "^7.2.15"
+httpx = "^0.28.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.5"
+python-dotenv = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+#[tool.poetry.scripts]
+#pytest = "pytest:main"
