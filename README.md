@@ -5,8 +5,11 @@ docker-compose run --rm tests
 
 # клонировать и запустить проект
 git clone https://github.com/username/my_marketplace_blog.git
+
 cd my_marketplace_blog
+
 docker-compose build
+
 docker-compose up
 
 
