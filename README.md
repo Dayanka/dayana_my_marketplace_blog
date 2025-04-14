@@ -6,7 +6,7 @@ docker-compose run --rm tests
 # клонировать и запустить проект
 git clone https://github.com/Dayanka/dayana_my_marketplace_blog.git
 
-cd my_marketplace_blog
+cd dayana_my_marketplace_blog
 
 docker-compose build
 
